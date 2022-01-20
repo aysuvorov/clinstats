@@ -16,7 +16,11 @@
 
 ### Статьи
 
+[Основные принципы применения описательной статистики в медицинских исследованиях](https://www.sechenovmedj.com/jour/article/view/397?locale=ru_RU#tab1)
+
 [Проверка статистических гипотез](/docs/pages/stat_testing/stat_testing.md)
+
+[Дизайн научных исследований в медицине](https://www.sechenovmedj.com/jour/article/view/283?locale=ru_RU#tab1)
 
 ### Заметки
 
