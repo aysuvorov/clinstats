@@ -8,6 +8,6 @@
 
 ### Статьи
 
-[Проверка статистических гипотез](/docs/pages/stat_testing.md)
+[Проверка статистических гипотез](/docs/pages/stat_testing/stat_testing.md)
 
 
