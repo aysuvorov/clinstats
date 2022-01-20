@@ -6,6 +6,10 @@
 
 Добро пожаловать на сайт, появященный анализу и биостатистике.
 
+[Телеграм-чат](https://t.me/cacs_sechenov)
+[По вопросам коммерческого сотрудничества](https://t.me/clinical_biostats)
+[Кое-что наше на GitHub](https://github.com/aysuvorov/medstats)
+
 ## Разделы
 
 ### Статьи
@@ -20,5 +24,7 @@
 ### Задачки
 
 [Простой пример теоремы Байеса](/docs/tasks/simple_bayes/task.md)
+
+
 
 
