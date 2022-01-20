@@ -72,7 +72,7 @@
 
 **Рисунок 1**. T-распределение (для 50 степеней свободы)
 
-!['111'](/stat_testing/images/График 1.png)
+!['111'](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/stat_testing/images/%D0%93%D1%80%D0%B0%D1%84%D0%B8%D0%BA%201.png?raw=true)
 
 **- на графике указаны критические значения 1.962337 и -1.962337, соответствующие двустороннему уровню значимости <!-- $\alpha$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha"> = 0,05.* 
 
