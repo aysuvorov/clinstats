@@ -10,6 +10,11 @@
 
 [Проверка статистических гипотез](/docs/pages/stat_testing/stat_testing.md)
 
+### Заметки
+
+[Визуализация данных в научных исследованиях](https://telegra.ph/Vizualizaciya-dannyh-v-nauchnyh-issledovaniyah-09-21)
+[Множественные сравнения](https://telegra.ph/Mnozhestvennye-sravneniya-09-28)
+
 ### Задачки
 
 [Простой пример теоремы Байеса](/docs/tasks/simple_bayes/task.md)
