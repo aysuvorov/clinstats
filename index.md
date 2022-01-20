@@ -12,6 +12,6 @@
 
 ### Задачки
 
-[Простой пример теоремы Байеса](docs/tasks/simple_bayes/answer.md)
+[Простой пример теоремы Байеса](aysuvorov/clinstats/docs/tasks/simple_bayes/task.md)
 
 
