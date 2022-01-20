@@ -72,7 +72,7 @@
 
 **Рисунок 1**. T-распределение (для 50 степеней свободы)
 
-!['111'](/docs/pages/stat_testing/images/График 1.png)
+!['111'](/stat_testing/images/График 1.png)
 
 **- на графике указаны критические значения 1.962337 и -1.962337, соответствующие двустороннему уровню значимости <!-- $\alpha$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha"> = 0,05.* 
 
