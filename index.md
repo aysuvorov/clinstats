@@ -7,7 +7,9 @@
 Добро пожаловать на сайт, посвященный анализу в медицине и биостатистике.
 
 [Телеграм-чат](https://t.me/cacs_sechenov)
+
 [По вопросам коммерческого сотрудничества](https://t.me/clinical_biostats)
+
 [Кое-что наше на GitHub](https://github.com/aysuvorov/medstats)
 
 ## Разделы
@@ -19,6 +21,7 @@
 ### Заметки
 
 [Визуализация данных в научных исследованиях](https://telegra.ph/Vizualizaciya-dannyh-v-nauchnyh-issledovaniyah-09-21)
+
 [Множественные сравнения](https://telegra.ph/Mnozhestvennye-sravneniya-09-28)
 
 ### Задачки
