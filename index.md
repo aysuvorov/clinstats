@@ -6,6 +6,8 @@
 
 ## Разделы
 
-[Статьи](/docs/pages/stat_testing.md)
+### Статьи
+
+[Проверка статистических гипотез](/docs/pages/stat_testing.md)
 
 
