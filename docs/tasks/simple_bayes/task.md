@@ -14,4 +14,4 @@
 
 Какова теперь вероятность наличия инфаркта у пациента Х ?
 
-[Ответ](https://aysuvorov.github.io/clinstats/docs/tasks/simple_bayes/task.html)
+[Ответ](https://aysuvorov.github.io/clinstats/docs/tasks/simple_bayes/answer.html)
