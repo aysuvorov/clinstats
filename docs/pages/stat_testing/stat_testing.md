@@ -178,9 +178,9 @@
 
 <!-- $H_1 = \begin{cases} \mu_{TRT} > \mu_{CTRL} \\ \mu_{TRT} < \mu_{CTRL} \end{cases}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=H_1%20%3D%20%5Cbegin%7Bcases%7D%20%5Cmu_%7BTRT%7D%20%3E%20%5Cmu_%7BCTRL%7D%20%5C%5C%20%5Cmu_%7BTRT%7D%20%3C%20%5Cmu_%7BCTRL%7D%20%5Cend%7Bcases%7D">
 
-То есть, мы рассматриваем альтернативные гипотезы и в случае *когда препарат TRT лучше*, чем CTRL, и, наоборот, когда TRT оказался бы *значимо хуже*. Тесты, используемые для такой проверки, получили название *двусторонние*. Если рассмотреть диаграмму распределения, например, t-статистики, мы увидим 2 зеркальных критических значения с разным знаком (при уровне значимости $\alpha$=0,05 для двустороннего теста критические значения будут -1.962 и 1.962). 
+То есть, мы рассматриваем альтернативные гипотезы и в случае *когда препарат TRT лучше*, чем CTRL, и, наоборот, когда TRT оказался бы *значимо хуже*. Тесты, используемые для такой проверки, получили название *двусторонние*. Если рассмотреть диаграмму распределения, например, t-статистики, мы увидим 2 зеркальных критических значения с разным знаком (при уровне значимости <!-- $\alpha$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha">=0,05 для двустороннего теста критические значения будут -1.962 и 1.962). 
 
-При двусторонних тестах общий уровень значимости разделяется пополам, и критические значения с каждой стороны соответствуют $\alpha/2$:
+При двусторонних тестах общий уровень значимости разделяется пополам, и критические значения с каждой стороны соответствуют <!-- $\alpha/2$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Calpha%2F2">:
 
 <!-- $\begin{cases} \alpha_{right} = \alpha / 2 \\ \alpha_{left} = \alpha / 2 \end{cases}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cbegin%7Bcases%7D%20%5Calpha_%7Bright%7D%20%3D%20%5Calpha%20%2F%202%20%5C%5C%20%5Calpha_%7Bleft%7D%20%3D%20%5Calpha%20%2F%202%20%5Cend%7Bcases%7D">
 
