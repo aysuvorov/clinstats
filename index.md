@@ -10,4 +10,8 @@
 
 [Проверка статистических гипотез](/docs/pages/stat_testing/stat_testing.md)
 
+### Задачки
+
+[Простой пример теоремы Байеса](docs/tasks/simple_bayes/task.md)
+
 
