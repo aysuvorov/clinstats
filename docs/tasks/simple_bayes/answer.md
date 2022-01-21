@@ -75,8 +75,10 @@
 - <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> — полная вероятность положительного теста.
 
 Полная вероятность <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> положительного теста теперь складывается из:
-- условной вероятности положительного теста среди пациентов с инфарктом <!-- $P(A)\times P(B|A) = 0,09 \times 0,99 = 0,0891$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%5Ctimes%20P(B%7CA)%20%3D%200%2C09%20%5Ctimes%200%2C99%20%3D%200%2C0891"> ;
-- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: <!-- $P(-A)\times P(B|-A) = 0,91 \times 0,01 = 0,0091$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)%5Ctimes%20P(B%7C-A)%20%3D%200%2C91%20%5Ctimes%200%2C01%20%3D%200%2C0091">.
+- условной вероятности положительного теста среди пациентов с инфарктом 
+<!-- $P(A)\times P(B|A) = 0,09 \times 0,99 = 0,0891$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%5Ctimes%20P(B%7CA)%20%3D%200%2C09%20%5Ctimes%200%2C99%20%3D%200%2C0891"> ;
+- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: 
+<!-- $P(-A)\times P(B|-A) = 0,91 \times 0,01 = 0,0091$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)%5Ctimes%20P(B%7C-A)%20%3D%200%2C91%20%5Ctimes%200%2C01%20%3D%200%2C0091">.
 
 В сумме <!-- $P(B) = 0,0982$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)%20%3D%200%2C0982">.
 Подставляем значения в формулу и получаем:
