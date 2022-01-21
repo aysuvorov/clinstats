@@ -47,9 +47,11 @@
 - <!-- $P(B|A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B%7CA)"> — вероятность положительного теста у пациентов с инфарктом: 0.99;
 - <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> — полная вероятность положительного теста.
 
-Полная вероятность $P(B)$ положительного теста складывается из:
-- условной вероятности положительного теста среди пациентов с инфарктом <!-- $P(A) \times P(B|A) = 0.001 \times 0.99 = 0.00099$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%20%5Ctimes%20P(B%7CA)%20%3D%200.001%20%5Ctimes%200.99%20%3D%200.00099"> ;
-- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: <!-- $P(-A)\times P(B|-A) = 0,999 \times 0.01 = 0.00999$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)%5Ctimes%20P(B%7C-A)%20%3D%200%2C999%20%5Ctimes%200.01%20%3D%200.00999">.
+Полная вероятность <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> положительного теста складывается из:
+- условной вероятности положительного теста среди пациентов с инфарктом 
+<!-- $P(A) \times P(B|A) = 0.001 \times 0.99 = 0.00099$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%20%5Ctimes%20P(B%7CA)%20%3D%200.001%20%5Ctimes%200.99%20%3D%200.00099"> ;
+- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: 
+<!-- $P(-A)\times P(B|-A) = 0,999 \times 0.01 = 0.00999$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)%5Ctimes%20P(B%7C-A)%20%3D%200%2C999%20%5Ctimes%200.01%20%3D%200.00999">.
 
 В сумме <!-- $P(B) = 0,01098$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)%20%3D%200%2C01098">.
 Подставляем значения в формулу и получаем:
