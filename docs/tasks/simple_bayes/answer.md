@@ -74,7 +74,8 @@
 - <!-- $P(B|A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B%7CA)"> — вероятность положительного теста у пациентов с инфарктом: 0.99;
 - <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> — полная вероятность положительного теста.
 
-Полная вероятность <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> положительного теста теперь складывается из:
+Полная вероятность 
+<!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> положительного теста теперь складывается из:
 - условной вероятности положительного теста среди пациентов с инфарктом:
 <!-- $P(A)\times P(B|A) = 0,09 \times 0,99 = 0,0891$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%5Ctimes%20P(B%7CA)%20%3D%200%2C09%20%5Ctimes%200%2C99%20%3D%200%2C0891"> ;
 - условной вероятности ложноположительного теста, когда у пациента инфаркта нет: 
