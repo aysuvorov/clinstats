@@ -5,9 +5,12 @@
 <!-- $P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A%7CB)%20%3D%20%5Cfrac%7BP(B%7CA)%20%5Ctimes%20P(A)%7D%7BP(B)%7D">, где
 
 - <!-- $P(A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)"> — априорная вероятность события A (насколько событие вообще вероятно);
-- <!-- $P(A|B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A%7CB)"> — вероятность события A при условии наступлении события B (апостериорная вероятность);
+- <!-- $P(A|B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A%7CB)"> — вероятность события A при условии наступлении события B;
 - <!-- $P(B|A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B%7CA)"> — вероятность наступления события B при истинности события A;
 - <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> — полная вероятность наступления события B.
+- <!-- $P(-A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)"> - априорная вероятность ненаступления события A;
+- <!-- $P(B|-A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B%7C-A)"> - вероятность наступления события B при ненаступлении события A;
+
 
 Наибольшей трудностью является оценка априорной вероятности. иногда крайне непонятно, как ее оценить, и откуда брать данные.
 
@@ -31,7 +34,7 @@
 
 Если у пациента действительно инфаркт, тест будет положителен с вероятностью <!-- $P = 0,99$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C99">, и ложноотрицательным с вероятностью <!-- $P = 0,01$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C01">.
 
-Если у пациента инфаркта нет, вероятность этого события <!-- $Р = 1 - 0,001 = 0,999$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%D0%A0%20%3D%201%20-%200%2C001%20%3D%200%2C999">. И среди таких пациентов с вероятностью <!-- $P = 0,01$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C01"> будет ложноположительный тест на инфаркт. Отрицательный тест в этой группе будет выявлен с вероятностью <!-- $P = 0,99$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C99">.
+Если у пациента инфаркта нет, вероятность этого события <!-- $P = 1 - 0.001 = 0.999$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%201%20-%200.001%20%3D%200.999">. И среди таких пациентов с вероятностью <!-- $P = 0,01$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C01"> будет ложноположительный тест на инфаркт. Отрицательный тест в этой группе будет выявлен с вероятностью <!-- $P = 0,99$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P%20%3D%200%2C99">.
 
 Нарисуем это.
 
@@ -44,9 +47,9 @@
 - <!-- $P(B|A)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B%7CA)"> — вероятность положительного теста у пациентов с инфарктом: 0.99;
 - <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> — полная вероятность положительного теста.
 
-Полная вероятность <!-- $P(B)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)"> положительного теста складывается из:
-- условной вероятности положительного теста среди пациентов с инфарктом <!-- $P(A)\times P(B|A) = 0,001 \times 0,99 = 0,00099$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%5Ctimes%20P(B%7CA)%20%3D%200%2C001%20%5Ctimes%200%2C99%20%3D%200%2C00099"> ;
-- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: $P(-A)\times P(B|-A) = 0,999 \times 0,01 = 0,00999$.
+Полная вероятность $P(B)$ положительного теста складывается из:
+- условной вероятности положительного теста среди пациентов с инфарктом <!-- $P(A) \times P(B|A) = 0.001 \times 0.99 = 0.00099$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(A)%20%5Ctimes%20P(B%7CA)%20%3D%200.001%20%5Ctimes%200.99%20%3D%200.00099"> ;
+- условной вероятности ложноположительного теста, когда у пациента инфаркта нет: <!-- $P(-A)\times P(B|-A) = 0,999 \times 0.01 = 0.00999$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(-A)%5Ctimes%20P(B%7C-A)%20%3D%200%2C999%20%5Ctimes%200.01%20%3D%200.00999">.
 
 В сумме <!-- $P(B) = 0,01098$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(B)%20%3D%200%2C01098">.
 Подставляем значения в формулу и получаем:
