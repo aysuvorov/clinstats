@@ -10,15 +10,15 @@
 
 ## Что мы предлагаем?
 
-[Сотрудничество для научно-исследовательских организаций и команд исследователей](/docs/promotion/researchers.md)
+[Сотрудничество для научно-исследовательских организаций и команд исследователей](https://aysuvorov.github.io/clinstats/docs/promotion/researchers.html)
 
 [Организаторам научных мероприятий]()
 
 [Независимым блогерам и инфлюенсерам в сфере клинических исследований]()
 
-[Фармбизнесу](/docs/promotion/farm_cro.md)
+[Фармбизнесу](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
 
-[Коммерческим организациям и контрактным исследовательским организациям](/docs/promotion/farm_cro.md)
+[Коммерческим организациям и контрактным исследовательским организациям](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
 
 ## Контакты
 
