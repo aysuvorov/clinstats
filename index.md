@@ -10,9 +10,9 @@
 
 [Сотрудничество для научно-исследовательских организаций и команд исследователей](https://aysuvorov.github.io/clinstats/docs/promotion/researchers.html)
 
-[Организаторам научных мероприятий]()
+[Организаторам научных мероприятий](https://aysuvorov.github.io/clinstats/docs/promotion/conf.html)
 
-[Независимым блогерам и инфлюенсерам в сфере клинических исследований]()
+[Коллабораторам, независимым блогерам и инфлюенсерам в сфере клинических исследований](https://aysuvorov.github.io/clinstats/docs/promotion/bloggers.html)
 
 [Фармацевтическим компаниям, дистрибьюторам и контрактным исследовательским организациям](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
 
@@ -30,11 +30,7 @@
 
 [E-mail](mailto:yourmedstat@gmail.com)
 
-GitHub наших сотрудников
-
-[GitHub - ](https://github.com/aysuvorov/medstats)
-
-## [Наши научные интересы](https://example.com/)
+[Мой GitHub - мои функции, которые я использую каждый день](https://github.com/aysuvorov/medstats)
 
 ## Разделы
 
