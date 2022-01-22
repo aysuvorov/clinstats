@@ -22,17 +22,17 @@
 
 По вопросам научного сотрудничества:
 
-[E-mail](cacs@staff.sechenov.ru)
+[E-mail](mailto:cacs@staff.sechenov.ru)
 
 По вопросам коммерческого сотрудничества:
 
 [Telegram](https://t.me/clinical_biostats)
 
-[E-mail](yourmedstat@gmail.com)
+[E-mail](mailto:yourmedstat@gmail.com)
 
 GitHub наших сотрудников
 
-[Главный статистик](https://github.com/aysuvorov/medstats)
+[GitHub - ](https://github.com/aysuvorov/medstats)
 
 ## [Наши научные интересы](https://example.com/)
 
