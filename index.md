@@ -1,12 +1,10 @@
 <p align="center">
-  <img src="https://drive.google.com/file/d/1TLfoT6UONTIV5t-gtV6ghil95GWxQBL7/view?usp=sharing" />
+  <img src="https://aysuvorov.github.io/clinstats/docs/promotion/logo.png" />
 </p>
-
-# COMPLEX SOLUTIONS
 
 Добро пожаловать на сайт, посвященный анализу данных в медицине и клинических исследованиях.
 
-## [Кто мы](https://example.com/)
+## [Александр Суворов](https://aysuvorov.github.io/clinstats/docs/promotion/about_us.html)
 
 ## Что мы предлагаем?
 
