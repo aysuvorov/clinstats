@@ -14,9 +14,7 @@
 
 [Независимым блогерам и инфлюенсерам в сфере клинических исследований]()
 
-[Фармбизнесу](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
-
-[Коммерческим организациям и контрактным исследовательским организациям](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
+[Фармацевтическим компаниям, дистрибьюторам и контрактным исследовательским организациям](https://aysuvorov.github.io/clinstats/docs/promotion/farm_cro.html)
 
 ## Контакты
 
