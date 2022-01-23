@@ -4,7 +4,7 @@
 
 Добро пожаловать на сайт, посвященный анализу данных в медицине и клинических исследованиях.
 
-## [Александр Суворов](https://aysuvorov.github.io/clinstats/docs/promotion/about_us.html)
+## [Обо мне](https://aysuvorov.github.io/clinstats/docs/promotion/about_us.html)
 
 ## Что мы предлагаем?
 
