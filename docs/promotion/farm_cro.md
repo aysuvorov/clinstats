@@ -23,4 +23,4 @@
 
 [Telegram](https://t.me/clinical_biostats)
 
-[E-mail](yourmedstat@gmail.com)
+[E-mail](mailto:yourmedstat@gmail.com)

@@ -36,7 +36,7 @@
 
 ## Контакты:
 
-[E-mail](cacs@staff.sechenov.ru)
+[E-mail](mailto:cacs@staff.sechenov.ru)
 
 
 
