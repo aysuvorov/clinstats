@@ -148,7 +148,7 @@ ROC-кривая представляет собой кривую на коор�
 
 Получаем график ROC-кривой:
 
-![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/simple_roc.png)
+![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/simple_roc.png?raw=true)
 
 Вот мы и построили нашу первую ROC-кривую!
 
@@ -203,7 +203,7 @@ print(np.trapz(tpr, fpr))
 
 Графически на координатной сетке Youden's J statistic выглядит следующим образом для порога 5 и выше:
 
-![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/J_stat_roc.png)
+![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/J_stat_roc.png?raw=true)
 
 Порог с наибольшим индексом Йоудена может быть использован при поиске оптимального разделения значений массива **value** для создания бинарных классов.
 
