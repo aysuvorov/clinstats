@@ -30,7 +30,7 @@
 
 [E-mail](mailto:yourmedstat@gmail.com)
 
-[Мой GitHub - мои функции, которые я использую каждый день](https://github.com/aysuvorov/medstats)
+[Мой GitHub](https://github.com/aysuvorov/medstats)
 
 ## Разделы
 
