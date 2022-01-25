@@ -148,7 +148,7 @@ $\begin{cases} i \geq 9 :\ \ [1,1,0, 0,0,0,0,0,0,0] \\ classes:\ [1, 1, 0, 1, 1,
 
 Получаем график ROC-кривой:
 
-![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/simple_roc.png?raw=true)
+![](https://raw.githubusercontent.com/aysuvorov/clinstats/master/docs/pages/roc_analysis/images/simple_roc.png)
 
 Вот мы и построили нашу первую ROC-кривую!
 
@@ -202,7 +202,7 @@ $J = TPR + TNR - 1 = TPR + (1 - FPR) - 1 = TPR - FPR$
 
 Графически на координатной сетке Youden's J statistic выглядит следующим образом для порога 5 и выше:
 
-![](https://github.com/aysuvorov/clinstats/blob/master/docs/pages/roc_analysis/images/J_stat_roc.png?raw=true)
+![](https://raw.githubusercontent.com/aysuvorov/clinstats/master/docs/pages/roc_analysis/images/J_stat_roc.png)
 
 Порог с наибольшим индексом Йоудена может быть использован при поиске оптимального разделения значений массива **value** для создания бинарных классов. 
 
