@@ -42,6 +42,8 @@
 
 [Дизайн научных исследований в медицине](https://www.sechenovmedj.com/jour/article/view/283?locale=ru_RU#tab1)
 
+[Элементарные понятия о ROC-анализе](/docs/pages/roc_analysis/roc_analysis.md)
+
 ### Заметки
 
 [Визуализация данных в научных исследованиях](https://telegra.ph/Vizualizaciya-dannyh-v-nauchnyh-issledovaniyah-09-21)
