@@ -52,6 +52,8 @@
 
 ### Задачки
 
+[Введение в теорию вероятностей](/docs/tasks/prob_theory/task.md)
+
 [Простой пример теоремы Байеса](/docs/tasks/simple_bayes/task.md)
 
 
