@@ -41,13 +41,13 @@ $$ -->
 Вероятность наступления одновременного наступления **двух независимых событий** А и В равна произведению вероятностей этих событий. Т.е., чтобы рассчитать с какой вероятностью выпадет <!-- $(1,2,3,4,5)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=(1%2C2%2C3%2C4%2C5)">, а при следующем броске <!-- $(1,2,3,4)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=(1%2C2%2C3%2C4)"> нам нужно  <!-- $P(1:5) \times P(1:4)$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P(1%3A5)%20%5Ctimes%20P(1%3A4)">. 
 
 В нашем случае для решения задачи нам нужно вычислить произведение 
-<!-- $$
-P((1:5) \cap (1:4) \cap (1:3) \cap (1:2) \cap (1)) = \\
-= P(1:5) \times P(1:4) \times P(1:3) \times P(1:2) \times P(1) = \\
-= \frac {5}{6} \times \frac {4}{6} \times \frac {3}{6} \times \frac {2}{6} \times \frac {1}{6} \approx 0.0154
-$$ --> 
 
-<div align="center"><img style="background: white;" src="https://render.githubusercontent.com/render/math?math=P((1%3A5)%20%5Ccap%20(1%3A4)%20%5Ccap%20(1%3A3)%20%5Ccap%20(1%3A2)%20%5Ccap%20(1))%20%3D%20%5C%5C%0A%3D%20P(1%3A5)%20%5Ctimes%20P(1%3A4)%20%5Ctimes%20P(1%3A3)%20%5Ctimes%20P(1%3A2)%20%5Ctimes%20P(1)%20%3D%20%5C%5C%0A%3D%20%5Cfrac%20%7B5%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B4%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B3%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B2%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B1%7D%7B6%7D%20%5Capprox%200.0154"></div>
+<!-- $P((1:5) \cap (1:4) \cap (1:3) \cap (1:2) \cap (1)) = $ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=P((1%3A5)%20%5Ccap%20(1%3A4)%20%5Ccap%20(1%3A3)%20%5Ccap%20(1%3A2)%20%5Ccap%20(1))%20%3D">
+
+<!-- $= P(1:5) \times P(1:4) \times P(1:3) \times P(1:2) \times P(1) = $ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20P(1%3A5)%20%5Ctimes%20P(1%3A4)%20%5Ctimes%20P(1%3A3)%20%5Ctimes%20P(1%3A2)%20%5Ctimes%20P(1)%20%3D">
+<!-- $= \frac {5}{6} \times \frac {4}{6} \times \frac {3}{6} \times \frac {2}{6} \times \frac {1}{6} \approx 0.0154$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%3D%20%5Cfrac%20%7B5%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B4%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B3%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B2%7D%7B6%7D%20%5Ctimes%20%5Cfrac%20%7B1%7D%7B6%7D%20%5Capprox%200.0154">
+
+
 Действительно, довольно просто. К тому же, мы поняли, как складывать и перемножать вероятности, а это понадобится нам для решения следующей задачи!
 
 ## Задача № 2
@@ -186,7 +186,7 @@ $$ -->
 
 Структура, отражающая вероятность той или иной комбинации с 3-мя игральными костями может быть представлена в виде куба 6х6х6:
 
-![Купить кубик Рубика 6x6 | обзор, цены, купить](https://cccstore.ru/upload/iblock/ff0/ff0a169988d9b544cb5bb1c29c050f16.webp)
+![](https://images.ua.prom.st/1743988210_w640_h640_1743988210.jpg)
 
 Таким образом, вероятность выпадения той или иной перестановки равна <!-- $\frac{1}{6 \times 6 \times 6}$ --> <img style="transform: translateY(0.1em); background: white;" src="https://render.githubusercontent.com/render/math?math=%5Cfrac%7B1%7D%7B6%20%5Ctimes%206%20%5Ctimes%206%7D">. 
 
