@@ -44,3 +44,20 @@ n2 = 82
 m2 + 2*sd2
 
 pooled_sd = sqrt(((n1-1) * sd1^2 + (n2-1) * sd2^2)/(n1 + n2 - 2))
+
+
+# Модели
+
+# Фиксированные эффекты
+
+SE = c()
+mu = c()
+
+for (i in seq(100)) {
+  sample <- rnorm(n = i, mean = 0, sd = 3)
+  SE[i] = sd(sample)/sqrt(length(sample))
+  mu[i] =  mean(sample)
+}
+
+plot(mu, SE, xlab = 'Effect size', ylab = 'Standard error', xlim=c(-2,2))
+abline(v=0, col='red', lwd=3)
