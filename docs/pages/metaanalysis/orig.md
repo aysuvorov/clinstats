@@ -375,6 +375,9 @@ $$
 
 
 
+
+
+
 ## Ссылки
 
 [^Higgins]: Higgins, Julian PT, and Simon G Thompson. 2002. “Quantifying Heterogeneity in a Meta-Analysis.” Statistics in Medicine 21 (11): 1539–58.
