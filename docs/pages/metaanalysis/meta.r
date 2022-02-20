@@ -61,3 +61,20 @@ for (i in seq(100)) {
 
 plot(mu, SE, xlab = 'Effect size', ylab = 'Standard error', xlim=c(-2,2))
 abline(v=0, col='red', lwd=3)
+
+
+"""
+Forest plot
+"""
+
+library(meta)
+
+data(Fleiss1993cont)
+
+example = metacont(n.psyc, mean.psyc, sd.psyc, n.cont, mean.cont, sd.cont,
+         data = Fleiss1993cont, studlab = paste(study, year),
+         random = TRUE, fixed=TRUE)
+
+forest.meta(example)
+
+drapery(example, labels = "studlab", type = "pvalue")
