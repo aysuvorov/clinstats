@@ -1,19 +1,8 @@
 # Проверка статистических гипотез
 
-<script type="text/javascript">
-$(document).ready(function () {
-    //to disable the entire page 
-    $('body').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
-    
-    //to disable a section
-    $('#id').bind('cut copy paste', function (e) {
-        e.preventDefault();
-    });
-});
-</script>
-
+-webkit-user-select: none; /*(Chrome/Safari/Opera)*/ 
+-moz-user-select: none;/*(Firefox)*/ 
+-ms-user-select: none;/*(IE/Edge)*/ 
 Авторы:
 
 - **Суворов Александр Юрьевич**, [ORCID](https://orcid.org/0000-0002-2224-0019)
