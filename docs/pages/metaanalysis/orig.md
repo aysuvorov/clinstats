@@ -418,6 +418,8 @@ $$
 
 
 
+
+
 ## Ссылки
 
 [^Olkin]: Olkin I, Dahabreh IJ, Trikalinos TA. GOSH - a graphical display of study heterogeneity. Res Synth Methods. 2012;3(3):214-223. doi:10.1002/jrsm.1053
