@@ -83,3 +83,55 @@ drapery(example, labels = "studlab", type = "pvalue")
 Effect size
 """
 
+
+x <- seq(- 5, 5, by = 0.01)
+y <- dt(x, df = 50)
+
+# расчет критических значений
+critical = qt(p=0.05/2, df=length(x), lower.tail=F)
+critical_one_sided = qt(p=0.05, df=length(x), lower.tail=F)
+
+
+plot(x, 
+     y, 
+     type = "l", 
+     main = " ",
+     xlab="t-статистики", ylab="Плотность вероятности",
+     las=1,
+     col = 'blue',
+     xlim=c(-5, 6)
+)
+
+lines(x + 2, 
+      y, 
+      type = "l", 
+      main = " ",
+      xlab="t-статистики", ylab="Плотность вероятности",
+      las=1,
+      col = 'red'
+)
+
+
+"""
+Funnel plot
+"""
+
+library(metafor)
+
+### copy BCG vaccine data into 'dat'
+dat <- dat.bcg
+
+### calculate log risk ratios and corresponding sampling variances
+dat <- escalc(measure="RR", ai=tpos, bi=tneg, ci=cpos, di=cneg, data=dat)
+
+### fit random-effects model
+res <- rma(yi, vi, data=dat, slab=paste(author, year, sep=", "))
+
+### draw a standard funnel plot
+funnel(res)
+
+### note: same plot, except that reference line is centered at zero
+funnel(dat$yi, dat$vi)
+
+### the with() function can be used to avoid having to retype dat$... over and over
+with(dat, funnel(yi, vi))
