@@ -78,3 +78,8 @@ example = metacont(n.psyc, mean.psyc, sd.psyc, n.cont, mean.cont, sd.cont,
 forest.meta(example)
 
 drapery(example, labels = "studlab", type = "pvalue")
+
+"""
+Effect size
+"""
+
