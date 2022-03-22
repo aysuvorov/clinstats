@@ -504,7 +504,7 @@ $
 
 Существует ряд подходов, призванные оценить наличие публикационного смещения.
 
-## Эффекты малых исследований (Small-Study Effect Methods)
+### Эффекты малых исследований (Small-Study Effect Methods)
 
 Малые исседования считаются ненадежным источником оценки эффекта. Во-первых, у больших исследований ниже размер стандартной ошибки. Во-вторых, у малых исследований часто имеется недостаточная мощность, что часто не позволяет продемонстрировать статистически значимый результат. Эти гипотезы достаточно логичны, однако в реальной жизни результаты крупных исследований могут быть смещены, а результаты малых исследований редко рассматриваются серьезно в силу вышеупомянутых аргументов, что, фактически, вычеркивает такие исследования из научного анализа, и, в свою очередь, снова приводит к смещению. 
 
@@ -512,7 +512,7 @@ $
 
 Как мы повторяли, результаты крупных исследований должны иметь небольшую вариабельность и низкую стандартную ошибку, в то время как результаты более мелких исследований логично имеют более высокую вариабельность и стандартную ошибку. 
 
-Если мы проведем метаанализ и построим диаграмму рассеяния, где по оси Х будет размер эффекта, а по оси Y - стандартная ошибка, мы получим следующего вида график:
+Если мы проведем метаанализ (базы данных и графики, основанные на них взяты из примеров библиотеки `metafor`]) [^Metafor] и построим диаграмму рассеяния, где по оси Х будет размер эффекта, а по оси Y - стандартная ошибка, мы получим следующего вида график:
 
 ![](https://raw.githubusercontent.com/aysuvorov/clinstats/master/docs/pages/metaanalysis/images/funnel_1.png)
 
@@ -522,7 +522,7 @@ $
 
 ![](https://raw.githubusercontent.com/aysuvorov/clinstats/master/docs/pages/metaanalysis/images/funnel_2.png)
 
-## Регрессионный тест Эггера
+### Регрессионный тест Эггера
 
 Визуальная оценка важна, однако довольно субъективна. Для более точной оценки асимметрии графика-воронки используется регрессионный тест Эггера. 
 
@@ -531,6 +531,12 @@ $
 $\frac{\hat{\theta}_k}{SE_{\hat{\theta}_k}} = \beta_0 + \beta \times \frac{1}{SE_{\hat{\theta}_k}}$
 
 Левая часть уравнения эквивалентна z-статистикам. Смещение точек, вызывающее асимметрию, связано с величиной свободного члена $\beta_0$ и его 95% ДИ. Если 95% ДИ не включает 0, имеется значимая асимметрия. 
+
+Например, для верхнего графика оценка $\beta_0$ составила -1,75 [-2.37; -1.13], что не включает 0 (результаты t-теста: t = -5.69, df = 14, p-value < 0.0001). Таким образом, мы с большой вероятностью можем говорить о наличии публикационного смещения. 
+
+
+
+
 
 
 ## Ссылки
@@ -547,6 +553,8 @@ $\frac{\hat{\theta}_k}{SE_{\hat{\theta}_k}} = \beta_0 + \beta \times \frac{1}{SE
 
 [^Viechtbauer]: Viechtbauer, Wolfgang. 2005. “Bias and Efficiency of Meta-Analytic Variance Estimators in the Random-Effects Model.” Journal of Educational and Behavioral Statistics 30 (3): 261–93.
 
+[^Metafor]: Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of Statistical Software, 36(3), 1-48. https://doi.org/10.18637/jss.v036.i03
+
 [^DerSimonian]: DerSimonian, Rebecca, and Nan Laird. 1986. “Meta-Analysis in Clinical Trials.” Controlled Clinical Trials 7 (3): 177–88.
 
 [^Mattos]: Mattos CT, Ruellas AC. Systematic review and meta-analysis: what are the implications in the clinical practice?. Dental Press J Orthod. 2015;20(1):17-19. doi:10.1590/2176-9451.20.1.017-019.ebo
@@ -557,7 +565,6 @@ $\frac{\hat{\theta}_k}{SE_{\hat{\theta}_k}} = \beta_0 + \beta \times \frac{1}{SE
 
 [^Schöpfel]: Schöpfel, Joachim, and Behrooz Rasuli. 2018. “Are Electronic Theses and Dissertations (Still) Grey Literature in the Digital Age? A FAIR Debate.” The Electronic Library 36 (2): 208–19.
 
-[^Schwarzer]: Balduzzi S, Rücker G, Schwarzer G (2019), How to perform a meta-analysis with R: a practical tutorial, Evidence-Based
-  Mental Health; 22: 153-160.
+[^Schwarzer]: Balduzzi S, Rücker G, Schwarzer G (2019), How to perform a meta-analysis with R: a practical tutorial, Evidence-Based Mental Health; 22: 153-160.
 
 [^Fleiss]: Fleiss JL. The statistical basis of meta-analysis. Stat Methods Med Res. 1993;2(2):121-145. doi:10.1177/096228029300200202
