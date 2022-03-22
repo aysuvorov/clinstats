@@ -44,7 +44,7 @@
 
 [Элементарные понятия о ROC-анализе](/docs/pages/roc_analysis/roc_analysis.md)
 
-[Элементарное введение в метаанализы](https://drive.google.com/file/d/1WkN3N7nhmks1TQCWI2IpZ8QPLHrsIF61/view)
+[Введение в метаанализы](https://drive.google.com/file/d/1WkN3N7nhmks1TQCWI2IpZ8QPLHrsIF61/view)
 
 ### Заметки
 
