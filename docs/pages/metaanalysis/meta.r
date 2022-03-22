@@ -135,3 +135,11 @@ funnel(dat$yi, dat$vi)
 
 ### the with() function can be used to avoid having to retype dat$... over and over
 with(dat, funnel(yi, vi))
+
+
+"""
+Egger test
+"""
+
+
+
