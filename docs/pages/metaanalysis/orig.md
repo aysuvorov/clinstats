@@ -1,5 +1,8 @@
 # Метаанализ
 
+Ссылка на pdf
+https://drive.google.com/file/d/1WkN3N7nhmks1TQCWI2IpZ8QPLHrsIF61/view
+
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3083073/
 
 https://www.google.com/search?q=Designing+clinical+research&sxsrf=AOaemvKJpgFS_eG6kQKAEmPQvMIDkh_7vA:1643268646973&ei=JkryYYnVOqOrrgSF3r-YCQ&start=0&sa=N&ved=2ahUKEwiJgOTftNH1AhWjlYsKHQXvD5M4ChDy0wN6BAgBED4&biw=1920&bih=936&dpr=1
